@@ -29,9 +29,6 @@ header{
     color:var(--cor);
     min-height:150px;
     padding-top:40px;
-    
-
-    
 }
 
 header > h1{
@@ -49,23 +46,27 @@ header p {
     font-size:1.2em;
     font-family: var(--font-padrão);
     max-width: 500px;
-
+    
     padding-left: 10px;
     padding-right:10px; 
     margin:auto;
     text-shadow:2px 2px 2px #092c19bb;
+
 }
-nav{
+#navegação{
+    display:block;
     margin-top:20px;
     padding:10px;
     box-shadow: 0px 0px 3px var(--cor3);
-    
+    position: sticky;
+    top: 0px;
 }
 nav > a{
     color:antiquewhite;
     text-decoration:none;
     padding:10px;
     font-weight:bold;
+   
 
 }
 nav > a:hover{
